@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.template": "html",
+        "*.block": "php",
+        "iostream": "cpp",
+        "string": "cpp",
+        "ostream": "cpp"
+    },
+    "java.project.sourcePaths": ["./CSE1322/java/Module00"]
+}
