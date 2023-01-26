@@ -52,7 +52,7 @@ public class concepts{
         // //  String Examlpe
         Console.WriteLine("-------[string]-------");
         string someString = "Hello World";
-        Console.WriteLine("Console.WriteLince()");
+        Console.WriteLine($"Console.WriteLine() {someString}");
 
         //  Constants
         Console.WriteLine("-------[const]-------");
