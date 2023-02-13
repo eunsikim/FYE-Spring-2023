@@ -13,60 +13,60 @@
 using namespace std;
 
 int main(){
-    // for(int i = 0; i < 10; i++){
-    //     cout << "Hello World" << endl;
-    // }
-    // // i = 0
-    // // 0 < 3 == TRUE
-    // // Print Hello World
-    // // i++ => i = 1
-    // // 1 < 3 == TRUE
-    // // Print Hello World
-    // // i++ => i = 2
-    // // 2 < 3 == TRUE
-    // // Print Hello World
-    // // i++ => i = 3
-    // // 3 < 3 == FALSE
+    for(int i = 0; i < 10; i++){
+        cout << "Hello World" << endl;
+    }
+    // i = 0
+    // 0 < 3 == TRUE
+    // Print Hello World
+    // i++ => i = 1
+    // 1 < 3 == TRUE
+    // Print Hello World
+    // i++ => i = 2
+    // 2 < 3 == TRUE
+    // Print Hello World
+    // i++ => i = 3
+    // 3 < 3 == FALSE
 
-    // int selection = 0;
+    int selection = 0;
 
-    // while(selection != 3){
-    //     cout << "1 - To do something" << endl;
-    //     cout << "2 - To do another thing" << endl;
-    //     cout << "3 - Exit" << endl;
+    while(selection != 3){
+        cout << "1 - To do something" << endl;
+        cout << "2 - To do another thing" << endl;
+        cout << "3 - Exit" << endl;
 
-    //     cout << "Your selection: ";
-    //     cin >> selection;
+        cout << "Your selection: ";
+        cin >> selection;
 
-    //     switch(selection){
-    //         case 1: break;
-    //         case 2: break;
-    //         case 3:
-    //             cout << "Bye" << endl;
-    //             break;
-    //     }
-    //     //
-    // }
+        switch(selection){
+            case 1: break;
+            case 2: break;
+            case 3:
+                cout << "Bye" << endl;
+                break;
+        }
+        //
+    }
 
 
-    // int selection2;
+    int selection2;
 
-    // do{
-    //     cout << "1 - To do something" << endl;
-    //     cout << "2 - To do another thing" << endl;
-    //     cout << "3 - Exit" << endl;
+    do{
+        cout << "1 - To do something" << endl;
+        cout << "2 - To do another thing" << endl;
+        cout << "3 - Exit" << endl;
 
-    //     cout << "Your selection: ";
-    //     cin >> selection2;
+        cout << "Your selection: ";
+        cin >> selection2;
 
-    //     switch(selection2){
-    //         case 1: break;
-    //         case 2: break;
-    //         case 3:
-    //             cout << "Bye" << endl;
-    //             break;
-    //     }
-    // }while(selection2 != 3);
+        switch(selection2){
+            case 1: break;
+            case 2: break;
+            case 3:
+                cout << "Bye" << endl;
+                break;
+        }
+    }while(selection2 != 3);
 
     //Example Even or Odd
     bool loop = true;
